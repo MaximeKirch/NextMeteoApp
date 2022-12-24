@@ -10,7 +10,7 @@ export default function Navbar() {
         </Box>
         <Box boxSize="s" ml={2}>
           <Link as={NextLink} alignSelf="center" color="yellow.50" href="/">
-            <Text fontSize="2xl">Weather App</Text>
+            <Text fontSize={['lg',"2xl"]}>Weather App</Text>
           </Link>
         </Box>
       </Box>

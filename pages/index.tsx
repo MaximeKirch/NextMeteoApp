@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import { Box, Container, Input, Text } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
-import SuggestedCities from "./components/Suggests";
 import Result from "./components/Result";
 import FormChecker from "./utils/FormChecker";
 import ErrorModal from "./components/Modal/ErrorModal";
